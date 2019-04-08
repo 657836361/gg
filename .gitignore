@@ -1,3 +1,7 @@
 /demo/target
 /demo/*.iml
 /demo/.idea
+/dubboTest/.idea
+/dubboTest/service-consumer/*.iml
+/dubboTest/service-interface/*.iml
+/dubboTest/service-provider/*.iml
