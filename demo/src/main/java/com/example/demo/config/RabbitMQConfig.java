@@ -33,7 +33,7 @@ public class RabbitMQConfig {
 
     @Bean
     public ConnectionFactory connectionFactory() {
-
+        String str = "C:\\Users\\GG\\Desktop";
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
         connectionFactory.setAddresses(addresses + ":" + port);
         connectionFactory.setUsername(username);
